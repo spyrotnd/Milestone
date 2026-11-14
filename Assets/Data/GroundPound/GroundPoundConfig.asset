@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ebacaa497ed5ad43888088ad30f631c, type: 3}
+  m_Name: GroundPoundConfig
+  m_EditorClassIdentifier: Assembly-CSharp::GroundPoundSO
+  launchHeight: 2.5
+  hangTime: 0.18
+  slamSpeed: 28
+  groundCheckDistance: 0.3
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  radius: 4
+  force: 14
+  upwardsModifier: 1.5
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  cooldown: 2.5
+  telegraphPrefab: {fileID: 0}
+  impactVfxPrefab: {fileID: 1314945738539566, guid: 32c9fd11a72259d45aa26ae41c34c5aa, type: 3}
+  vfxLifetime: 3
+  animatorTrigger: Slam
+  windupSound: {fileID: 11400000, guid: fb82f3f48eee4dad8f0251f7c9165d63, type: 2}
+  impactSound: {fileID: 11400000, guid: 922f16163106448d8c917ce3839ebc3c, type: 2}
